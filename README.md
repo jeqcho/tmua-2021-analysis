@@ -93,5 +93,7 @@ The figure shows the distribution of the grades. However, I am interested in the
 I extracted the images from PDF using [ilovepdf](https://www.ilovepdf.com/pdf_to_jpg).
 Using [Pillow](https://pillow.readthedocs.io/), I calculated the number of pixels similar to the colour of the light blue used inside the plots RGB(189, 215, 239) with a tolerance value of 100. Lower tolerance values failed because of the JPG nature of the images cause a splatter of colours near the edge of the bars. You can see these failures colourised at the [failed-tolerances](https://github.com/jeqcho/tmua-2021-analysis/tree/master/failed-tolerances) folder. Main code is in main.py.
 
+A copy of these tables can be found at [Google Sheets](https://docs.google.com/spreadsheets/d/1ZnY8dYZq8kkCk0u0HaTGAEEvxi_B9UihwGnEqcnDm8I/edit?usp=sharing)
+
 Inspired by my maths teacher Ms Wei Yee.
 Enjoy! Contact: chooijqweb@gmail.com
